@@ -4,11 +4,11 @@ import './ImageScroller.scss';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 const images = [
-  { id: 1, src: './public/images/third.jpg'},
-  { id: 2, src: './public/images/1.jpg'},
-  { id: 3, src: './public/images/2.jpg'},
-  { id: 4, src: './public/images/3.jpg'},
-  { id: 5, src: './public/images/4.jpg'},
+  { id: 1, src: '/events-planner/images/third.jpg'},
+  { id: 2, src: '/events-planner/images/1.jpg'},
+  { id: 3, src: '/events-planner/images/2.jpg'},
+  { id: 4, src: '/events-planner/images/3.jpg'},
+  { id: 5, src: '/events-planner/images/4.jpg'},
 ]
 
 export const ImageScroller = () => {
